@@ -14,7 +14,7 @@ Param (
         "Fails", IgnoreCase = $True)]
     [string]$Show = "None",
     [parameter ( Mandatory = $False)]
-    [ValidateSet("IPSets", "SecurityGroups", "DFW", "SecurityTags", "Edge" IgnoreCase = $True)]
+    [ValidateSet("IPSets", "SecurityGroups", "DFW", "SecurityTags", "Edge", IgnoreCase = $True)]
     [string]$TestName,
     [parameter ( Mandatory = $False)]
     [ValidateSet("1.0", "2.3", "2.4", "2.5", "3.0", IgnoreCase = $True)]
